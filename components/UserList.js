@@ -24,22 +24,23 @@ const styles = StyleSheet.create({
     maxHeight: 200,
   },
   header: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
+    flexDirection: "row",
+    justifyContent: "space-between",
     borderBottomWidth: 1,
-    borderBottomColor: '#000',
+    borderBottomColor: "#fff",
     paddingBottom: 5,
     marginBottom: 5,
   },
   row: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
+    flexDirection: "row",
+    justifyContent: "space-between",
     paddingVertical: 5,
   },
   column: {
     flex: 1,
-    textAlign: 'left',
+    textAlign: "left",
     fontSize: 16,
+    color: "#fff",
   },
 });
 
